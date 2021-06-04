@@ -1,6 +1,7 @@
 # Fitness-Tracker
 
 <!-- insert video gif here -->
+![](https://github.com/seddboi/Note-Machine/blob/main/Note%20Taker.gif)
 
 # Introduction
 
