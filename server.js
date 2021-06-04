@@ -8,7 +8,7 @@ app.use(logger('dev'));
 const PORT = process.env.PORT || 3001;
 
 mongoose.connect(
-    process.env.MONGOD_URI || 'mongodb://localhost/workout',
+    process.env.MONGOD_URI || 'mongodb://localhost/Workouts',
     {
         useNewUrlParser: true,
         useUnifiedTopology: true,
