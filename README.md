@@ -1,7 +1,7 @@
 # Fitness-Tracker
 
 <!-- insert video gif here -->
-![](https://github.com/seddboi/Note-Machine/blob/main/Note%20Taker.gif)
+![](https://github.com/seddboi/Fitness-Tracker/blob/main/public/gif/Fitness%20Tracker.gif)
 
 # Introduction
 
