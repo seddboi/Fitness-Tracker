@@ -1,4 +1,4 @@
-const workoutJCole = require('../public/workout');
+const workoutJCole = require('../models');
 const router = require('express').Router();
 
 // collect all workouts
@@ -30,7 +30,7 @@ router.get('/api/workouts/range', (req, res) => {
 });
 
 // 'add an exercise' route
-router.post('/api/workout', (req, res) => {
+router.put('/api/workouts/:id', (req, res) => {
     workoutJCole.Workout.findOneAndUpdate(
         {
             _id: req.params.id
@@ -54,7 +54,7 @@ router.post('/api/workout', (req, res) => {
 });
 
 // 'create a full workout' route
-router.post('.api/workouts', ( {body}, res) => {
+router.post('/api/workouts', ( {body}, res) => {
     workoutJCole.Workout.create(body).then ( (dbWorkouts) => {
         res.json(dbWorkouts);
     }).catch( (err) => {
